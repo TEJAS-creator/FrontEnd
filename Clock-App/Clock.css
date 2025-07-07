@@ -1,0 +1,23 @@
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+  background-image: url('./image.jpg'); /* Make sure image is in src folder */
+  background-size: cover;
+  background-position: center;
+}
+
+.clock {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.clock span {
+  font-size: 3rem;
+  color: #fff;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 2px;
+}

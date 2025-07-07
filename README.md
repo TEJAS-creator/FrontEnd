@@ -1,49 +1,46 @@
-# 💻 FrontEnd Projects Collection
+# 🚀 FrontEnd Projects by Tejas
 
-Welcome to my complete collection of **HTML, CSS, and JavaScript projects**!  
-Each folder inside this repository represents a fully functional mini-project, handcrafted while learning or building my skills.
-
-> ✅ These projects cover basic to intermediate level DOM, API usage, user interaction, form validation, dynamic UIs, and more.
+This repository contains all of my frontend development projects using **HTML**, **CSS**, and **JavaScript** — neatly organized in one place for easy access and contribution.
 
 ---
 
-## 🚀 Project List
+## 📁 Projects List
 
-| # | Project Name              | Description |
-|--:|---------------------------|-------------|
-| 01 | [Amazon-Clone](./Amazon-Clone) | A clone of Amazon homepage with HTML & CSS |
-| 02 | [Basic ChatBot](./Basic_ChatBot) | A simple HTML/CSS/JS chatbot interface |
-| 03 | [Calculator](./Calculator) | Functional calculator with JavaScript |
-| 04 | [Card App](./Card-App) | UI Card display layout using flexbox |
-| 05 | [Clock App](./Clock_App) | Digital clock with real-time updates |
-| 06 | [Color Picker](./ColorPicker) | Interactive color picker with preview |
-| 07 | [Learn JavaScript](./Learn_Javascript) | Practice files for learning core JavaScript |
-| 08 | [Login Page](./Login-Page) | Clean login page layout with CSS animations |
-| 09 | [Movie Search App](./Movie-Search-App) | Search movies using OMDB API |
-| 10 | [Music Player](./Music-Player) | Fully working music player with controls |
-| 11 | [Pokedex API](./Pokedex-API) | Pokémon info using public API |
-| 12 | [Quote Generator](./Quote-Generator) | Generate random motivational quotes |
-| 13 | [To-Do List (JS)](./To-Do-List-JavaScript) | Simple JS-based task manager |
-| 14 | [To-Do List (React)](./To-Do-List-React) | React version of a task manager |
-| 15 | [User Details to .txt](./User-Details) | Save user input to downloadable `.txt` file |
-| 16 | [Digital Clock](./digital-clock) | Minimal real-time digital clock UI |
-| 17 | [Password Generator](./password_generator) | Generate secure passwords with filters |
-| 18 | [Toggle Practice](./toggle) | Simple light/dark mode toggle practice |
-| 19 | [Weather App](./weather-app) | Display current weather using OpenWeather API |
-
----
-
-## 🧰 Tech Stack Used
-
-- HTML5
-- CSS3 (Flexbox, Grid, Animations)
-- JavaScript (DOM, Events, Fetch API)
-- React (in some projects)
+| Project Name | Description |
+| ------------ | ----------- |
+| 🛒 [Amazon-Clone](./Amazon-Clone) | A basic clone of Amazon’s homepage using HTML & CSS. |
+| 🤖 [Basic-Chatbot](./Basic-Chatbot) | A simple chatbot UI built using vanilla JavaScript. |
+| 🧮 [Calculator](./Calculator) | A functional calculator styled like iOS using HTML, CSS & JS. |
+| 🃏 [Card-App](./Card-App) | Flip card UI using HTML and advanced CSS transitions. |
+| 🕒 [Clock-App](./Clock-App) | Analog + digital clock using JavaScript’s Date object. |
+| 🎨 [Color-Picker](./Color-Picker) | Interactive color picker tool. |
+| 🕘 [Digital-Clock](./Digital-Clock) | Real-time updating digital clock using JS. |
+| 📘 [Learn-JavaScript](./Learn-JavaScript) | Mini-projects to practice JavaScript basics. |
+| 🔐 [Login-Page](./Login-Page) | A responsive login form design. |
+| 🎥 [Movie-Search-App](./Movie-Search-App) | Search for movies using OMDb API. |
+| 🎵 [Music-Player](./Music-Player) | Custom audio player with play/pause & seek features. |
+| 🔑 [Password-Generator](./Password-Generator) | Generates secure random passwords with options. |
+| 🧬 [Pokedex-API](./Pokedex-API) | Pokémon viewer using public Pokémon API. |
+| 🧠 [Quote-Generator](./Quote-Generator) | Generates motivational quotes from an API. |
+| 📝 [To-Do-List-JavaScript](./To-Do-List-JavaScript) | Classic to-do list using HTML, CSS, JS. |
+| ⚛️ [To-Do-List-React](./To-Do-List-React) | A more dynamic React version of the To-Do list. |
+| 🔄 [Toggle](./Toggle) | Projects demonstrating light/dark mode and toggle switches. |
+| 👤 [User-Details](./User-Details) | Input form saving details to a file or display. |
+| 🌦️ [Weather-App](./Weather-App) | Weather dashboard using a weather API. |
 
 ---
 
-## 📂 How to Use
+## 💡 What's Inside?
 
-1. Clone the repo  
+- 🧱 Clean folder structure
+- 💻 All projects are self-contained
+- 🎯 Easy to fork and play with
+- 📱 Mostly responsive designs
+
+---
+
+## 📌 How to Run
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/TEJAS-creator/FrontEnd.git

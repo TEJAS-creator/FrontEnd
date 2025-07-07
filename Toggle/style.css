@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+  color: black;
+  transition: 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+#toggleBtn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}

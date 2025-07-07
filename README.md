@@ -9,7 +9,7 @@ This repository contains all of my frontend development projects using **HTML**,
 | Project Name | Description |
 | ------------ | ----------- |
 | 🛒 [Amazon-Clone](./Amazon-Clone) | A basic clone of Amazon’s homepage using HTML & CSS. |
-| 🤖 [Basic-Chatbot](./Basic-Chatbot) | A simple chatbot UI built using vanilla JavaScript. |
+| 🤖 [Basic-Chatbot](./Basic-Chatbot) | A simple chatbot UI built using JavaScript. |
 | 🧮 [Calculator](./Calculator) | A functional calculator styled like iOS using HTML, CSS & JS. |
 | 🃏 [Card-App](./Card-App) | Flip card UI using HTML and advanced CSS transitions. |
 | 🕒 [Clock-App](./Clock-App) | Analog + digital clock using JavaScript’s Date object. |

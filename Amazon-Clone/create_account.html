@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="create_account.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="homepage.html">
+        <img src="assets/amazon_logo.png" alt="image" width="100" />
+      </a>
+      <div class="nav-country">
+        <img src="/assets/location_icon.png" height="20" alt="" />
+        <div>
+          <p>Deliver to</p>
+          <h1>India</h1>
+        </div>
+      </div>
+      <div class="nav-search">
+        <div class="nav-search-gategory">
+          <p>All</p>
+          <img src="/assets/dropdown_icon.png" alt="" height="12" />
+        </div>
+        <input
+          type="text"
+          class="nav-search-input"
+          placeholder="Search Amazon"
+        />
+        <img src="/assets/search_icon.png" alt="" class="nav-search-icon" />
+      </div>
+      <div class="nav-language">
+        <img src="/assets/ind_flag.png" alt="" width="25px" />
+        <p>EN</p>
+        <img src="/assets/dropdown_icon.png" alt="" width="8px" />
+      </div>
+      <div class="nav-text">
+        <p><a href="signin.html">Hello, Sign in</a></p>
+        <h1><a href="signin.html">Account & Lists</a></h1>
+      </div>
+      <div class="nav-text">
+        <p>Return</p>
+        <h1>& Orders</h1>
+      </div>
+      <a href="cart.html" class="nav-cart">
+        <img src="/assets/cart_icon.png" alt="" width="35px" />
+        <h4>Cart</h4>
+      </a>
+    </nav>
+    <div class="create-account-container">
+      <div class="create-account-box">
+        <h2>Create Account</h2>
+        <form>
+          <label for="name">Your name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label for="email">Email or mobile phone number</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your email or mobile number"
+            required
+          />
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+          <p class="password-note">Passwords must be at least 6 characters.</p>
+          <button type="submit" class="create-account-btn">
+            Create your Amazon account
+          </button>
+          <p>
+            By creating an account, you agree to Amazon's
+            <a href="#">Conditions of Use</a> and
+            <a href="#">Privacy Notice</a>.
+          </p>
+          <div class="separator">
+            <hr />
+            <span>Already have an account?</span>
+            <hr />
+          </div>
+          <button type="button" class="sign-in-btn">
+            <a href="signin.html">Sign in</a>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

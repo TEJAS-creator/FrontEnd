@@ -1,4 +1,4 @@
-# 🚀 FrontEnd Projects by Tejas
+# 🚀 FrontEnd Projects
 
 This repository contains all of my frontend development projects using **HTML**, **CSS**, and **JavaScript** — neatly organized in one place for easy access and contribution.
 

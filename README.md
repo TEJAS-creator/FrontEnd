@@ -27,6 +27,8 @@ This repository contains all of my frontend development projects using **HTML**,
 | 🔄 [Toggle](./Toggle) | Projects demonstrating light/dark mode and toggle switches. |
 | 👤 [User-Details](./User-Details) | Input form saving details to a file or display. |
 | 🌦️ [Weather-App](./Weather-App) | Weather dashboard using a weather API. |
+| 🖼️ [Image-Slider](./Image-Slider) | A responsive image slider with smooth transitions. |
+
 
 ---
 

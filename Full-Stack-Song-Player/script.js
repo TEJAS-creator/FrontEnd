@@ -62,6 +62,61 @@ function updateUIState(isPlaying) {
     }
 }
 
+// ... [Keep your existing CONFIG and DOM Elements] ...
+const progressWrapper = document.getElementById('progress-wrapper');
+
+// 1. CLICK TO SEEK (Spotify Style)
+progressWrapper.onclick = (e) => {
+    if (!audioPlayer.src || audioPlayer.duration === 0) return;
+
+    // Get the width of the bar and where the user clicked
+    const width = progressWrapper.clientWidth;
+    const clickX = e.offsetX;
+    const duration = audioPlayer.duration;
+
+    // Calculate new time: (click position / total width) * total duration
+    audioPlayer.currentTime = (clickX / width) * duration;
+};
+
+// 2. KEYBOARD CONTROLS (Left/Right Arrows)
+document.addEventListener('keydown', (e) => {
+    // Prevent scrolling the page with arrows if necessary
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft" || e.key === " ") {
+        e.preventDefault();
+    }
+
+    if (!audioPlayer.src) return;
+
+    if (e.key === "ArrowRight") {
+        // Go 10 seconds forward
+        audioPlayer.currentTime = Math.min(audioPlayer.currentTime + 10, audioPlayer.duration);
+    } 
+    else if (e.key === "ArrowLeft") {
+        // Go 10 seconds backward
+        audioPlayer.currentTime = Math.max(audioPlayer.currentTime - 10, 0);
+    }
+    else if (e.key === " ") {
+        // Spacebar to Play/Pause
+        if (audioPlayer.paused) {
+            audioPlayer.play();
+            updateUIState(true);
+        } else {
+            audioPlayer.pause();
+            updateUIState(false);
+        }
+    }
+});
+
+// ... [Keep your existing fetchSongs, playSong, and updateUIState functions] ...
+
+// Ensure your ontimeupdate stays active to move the bar
+audioPlayer.ontimeupdate = () => {
+    if (audioPlayer.duration) {
+        const percent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+        progressBar.style.width = percent + "%";
+    }
+};
+
 // 6. NAVIGATION CONTROLS
 nextBtn.onclick = () => {
     currentSongIndex++;
@@ -106,5 +161,6 @@ audioPlayer.ontimeupdate = () => {
         progressBar.style.width = percent + "%";
     }
 };
+
 
 fetchSongs();

@@ -149,12 +149,18 @@ body {
 /* Progress Bar */
 .progress-container {
     width: 100%;
-    height: 6px;
+    height: 8px; /* Slightly thicker for easier clicking */
     background: rgba(255,255,255,0.1);
     border-radius: 10px;
-    margin-top: 20px;
-    cursor: pointer;
+    margin-top: 25px;
+    cursor: pointer; /* Key change */
+    position: relative;
     overflow: hidden;
+    transition: height 0.2s;
+}
+
+.progress-container:hover {
+    height: 10px; /* Expands slightly when hovering like Spotify */
 }
 
 #progress-bar {
@@ -162,6 +168,7 @@ body {
     height: 100%;
     background: var(--accent);
     box-shadow: 0 0 10px var(--accent);
+    pointer-events: none; /* Let clicks pass through to the container */
 }
 
 /* Playlist */
@@ -207,4 +214,5 @@ li:hover {
     /* Keep your existing play-btn styles, just ensure width/height are consistent */
     width: 70px;
     height: 70px;
+
 }
